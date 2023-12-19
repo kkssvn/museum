@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "LighthausRegular";
+url("../fonts/LighthausRegular/LighthausRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+main > .container {
+    padding: 20px 15px 20px;
+}
+
+body {
+    background: #1A1108;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+nav .fixed-top {
+    position: fixed;
+    top: 0;
+    margin-bottom: 40px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background: #892810;
+}
+
+.title {
+    color: #FFF;
+    font-family: Lighthaus;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 75%; /* 24px */
+}
+
+.txt {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.timetable{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.btn-day{
+    display: flex;
+    padding: 7px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.80);
+}
